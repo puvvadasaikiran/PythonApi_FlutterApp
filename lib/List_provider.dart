@@ -7,6 +7,8 @@ import 'package:http/http.dart' as http;
 class ListProvider with ChangeNotifier {
   static const herokuUrl = 'https://still-beach-99010.herokuapp.com/pythonapi/';
 
+  String user = '';
+
   String forAnalysis = "";
 
   static const String _url =
@@ -87,6 +89,15 @@ class ListProvider with ChangeNotifier {
       'hoursperweek': '',
       'country': '',
     };
+  }
+
+  String get userName {
+    return user;
+  }
+
+  void setUser(String userName) {
+    user = userName;
+    notifyListeners();
   }
 
   String get indexedQueryforAnalysis {

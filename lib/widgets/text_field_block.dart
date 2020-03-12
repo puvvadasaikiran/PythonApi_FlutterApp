@@ -26,9 +26,9 @@ class TextFieldBlock extends StatelessWidget {
       width: MediaQuery.of(context).size.width - 30,
       decoration: BoxDecoration(
         border: Border.all(
-          width: 2,
-          color: Colors.black, //Color(0xFF000000), //Color(0x7F6CA8F1),
-        ),
+              width: 1,
+              color: Color(0x09000000), //Color(0xFF000000), //Color(0x7F6CA8F1),
+            ),
         borderRadius: BorderRadius.circular(15),
         color: Colors.white, // Colors.black,//Color(0xFF6CA8F1),
       ),
@@ -40,12 +40,12 @@ class TextFieldBlock extends StatelessWidget {
               textField,
               style: TextStyle(
                   fontSize: 50,
-                  color: Colors.black,
+                  color: Colors.black87,
                   fontWeight: FontWeight.bold),
             ),
             TextField(
               style: TextStyle(
-                color: Colors.black,
+                color: Colors.black87,
                 fontSize: 65,
                 fontWeight: FontWeight.bold,
               ),
@@ -57,7 +57,7 @@ class TextFieldBlock extends StatelessWidget {
                   border: InputBorder.none,
                   counterText: "",
                   hintText: hintText,
-                  hintStyle: TextStyle(color: Color(0x20000000))),
+                  hintStyle: TextStyle(color: Color(0x09000000))),
               textAlign: TextAlign.center,
               onChanged: (String value) {
                 Provider.of<ListProvider>(context, listen: false)

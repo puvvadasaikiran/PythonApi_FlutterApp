@@ -1,0 +1,48 @@
+{
+    "project_info": {
+        "project_number": "767804529986",
+        "firebase_url": "https://incomepredictoraj.firebaseio.com",
+        "project_id": "incomepredictoraj",
+        "storage_bucket": "incomepredictoraj.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:767804529986:android:1f493836934e5bb5083cdb",
+                "android_client_info": {
+                    "package_name": "co.buggyexploit.income_predictor"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "767804529986-if72pp1ds63q1fn8i1p1ktkg5siptf50.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "co.buggyexploit.income_predictor",
+                        "certificate_hash": "c1043fe6ed423d63dd64c3e3d43a4f9308eac7d3"
+                    }
+                },
+                {
+                    "client_id": "767804529986-3nbsg1aijjku6v2q2vma1dbmpjqr9s6o.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBARGhXkUbRG-GV2B7aC6Lizm2sxmAfHmY"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "767804529986-3nbsg1aijjku6v2q2vma1dbmpjqr9s6o.apps.googleusercontent.com",
+                            "client_type": 3
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}

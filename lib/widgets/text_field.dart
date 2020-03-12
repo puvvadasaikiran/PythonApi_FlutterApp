@@ -24,9 +24,9 @@ class _TextFieldCollectorState extends State<TextFieldCollector> {
       width: MediaQuery.of(context).size.width - 30,
       decoration: BoxDecoration(
           border: Border.all(
-            width: 2,
-            color: Colors.black, //Color(0xFF000000), //Color(0x7F6CA8F1),
-          ),
+              width: 1,
+              color: Color(0x09000000), //Color(0xFF000000), //Color(0x7F6CA8F1),
+            ),
           borderRadius: BorderRadius.circular(15),
           color: Colors.white //Color(0xFF6CA8F1),
           ),

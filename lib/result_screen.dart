@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:income_predictor/List_provider.dart';
-import 'package:income_predictor/main.dart';
+import 'package:income_predictor/user_details_form_screen.dart';
 import 'package:provider/provider.dart';
 
 class ResultScreen extends StatelessWidget {
@@ -15,7 +15,7 @@ class ResultScreen extends StatelessWidget {
         Navigator.of(context).pushReplacementNamed(MyStatefulWidget.routeName);
       },
       child: Scaffold(
-        backgroundColor: Colors.cyan,
+        backgroundColor: Color.fromRGBO(143, 148, 251, 1),
         body: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -71,7 +71,7 @@ class ResultScreen extends StatelessWidget {
           ),
         ),
         floatingActionButton: FloatingActionButton(
-          backgroundColor: Colors.cyan,
+          backgroundColor: Color.fromRGBO(143, 148, 251, 1),
           child: Icon(Icons.home),
           onPressed: () {
             Provider.of<ListProvider>(context, listen: false).resetValues();

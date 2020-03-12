@@ -35,7 +35,7 @@ class _DropDownWidgetState extends State<DropDownWidget> {
           widget.hintText,
           style: TextStyle(
               fontSize: 18,
-              color: Color(0xFF000000), // Color(0xFF6CA8F1),
+              color: Colors.black87, //Color(0xFF000000), // Color(0xFF6CA8F1),
               fontWeight: FontWeight.w700),
         ),
         Container(
@@ -44,8 +44,8 @@ class _DropDownWidgetState extends State<DropDownWidget> {
           decoration: BoxDecoration(
             color: Colors.white,
             border: Border.all(
-              width: 2,
-              color: Colors.black87, //Color(0xFF000000), //Color(0x7F6CA8F1),
+              width: 1,
+              color: Color(0x05000000), //Color(0xFF000000), //Color(0x7F6CA8F1),
             ),
             borderRadius: BorderRadius.circular(10.0),
           ),
